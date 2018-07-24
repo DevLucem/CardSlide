@@ -20,7 +20,7 @@ Add this dependency line in your build.gradle **app level**
 
 ```
 dependencies {
-	implementation 'com.github.Lucem-Anb:CardSlide:[Version](https://github.com/Lucem-Anb/CardSlide#latest-version-102)'
+	implementation 'com.github.Lucem-Anb:CardSlide:@Version'
 }
 ```
 
