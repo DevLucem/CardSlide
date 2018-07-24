@@ -8,28 +8,28 @@ This library extends `View` and adopts all methods used by the `FrameLayout`
 ### Implementation
 Add jitpack to repositories in the root build.gradle file
 ```
-    allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
 	}
+}
 ```
 
 Add this dependency line in your build.gradle **app level**
 
 ```
-    dependencies {
-        implementation 'com.github.Lucem-Anb:CardSlide:1.0.1'
-    }
+dependencies {
+	implementation 'com.github.Lucem-Anb:CardSlide:1.0.1'
+}
 ```
 
 ### Usage
 Wrap your view with the class `SliderAnimate`
 
 ```
-    <com.lucem.anb.cardslide.SliderAnimate
-        android:layout_width="wrap_content"
+<com.lucem.anb.cardslide.SliderAnimate
+	android:layout_width="wrap_content"
         android:layout_gravity="center"
         app:start="top_left"
         android:id="@+id/slider_animate"
@@ -41,8 +41,8 @@ Wrap your view with the class `SliderAnimate`
             android:contentDescription="@string/image"
             android:src="@drawable/ic_launcher"
             android:layout_height="160dp" />
-
-    </com.lucem.anb.cardslide.SliderAnimate>
+		
+</com.lucem.anb.cardslide.SliderAnimate>
 ```
 
 Initialize the animation in your java class
