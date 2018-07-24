@@ -57,3 +57,6 @@ Define the starting point of the animation
 in design:   `app:start="top_left"`
 
 in activity: `animate.setStartPoint(SliderAnimate.TOP_LEFT);`
+
+
+## Latest Version: 1.0.2
