@@ -28,7 +28,7 @@ dependencies {
 Wrap your view with the class `SliderAnimate`
 
 ```
-<com.lucem.anb.cardslide.SliderAnimate
+<com.lucem.anb.cardslide2.SliderAnimate
 	android:layout_width="wrap_content"
         android:layout_gravity="center"
         app:start="top_left"
